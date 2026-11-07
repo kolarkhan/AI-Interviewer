@@ -1,0 +1,57 @@
+# Secrets
+.env
+*.env.local
+**/GoogleService-Info.plist
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+
+# Python
+backend/.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Unity
+unity/AIInterviewer/[Ll]ibrary/
+unity/AIInterviewer/[Tt]emp/
+unity/AIInterviewer/[Oo]bj/
+unity/AIInterviewer/[Bb]uild/
+unity/AIInterviewer/[Bb]uilds/
+unity/AIInterviewer/[Ll]ogs/
+unity/AIInterviewer/[Uu]ser[Ss]ettings/
+unity/AIInterviewer/*.csproj
+unity/AIInterviewer/*.sln
+unity/AIInterviewer/.vs/
+unity/AIInterviewer/Assets/AIInterviewer/Resources/AppConfig.Local.json*
+
+# Generated audio from tools
+*.wav
+
+# .NET core tests build output
+unity/AIInterviewer/CoreTests~/bin/
+unity/AIInterviewer/CoreTests~/obj/
+
+# Unity editor accidentally installed inside the project by Unity Hub (never commit)
+unity/AIInterviewer/Editor/
+
+# Third-party Rocketbox avatar binaries (~220 MB) - download them separately, see docs/AVATAR_ASSETS.md
+unity/AIInterviewer/Assets/ThirdParty/Rocketbox/Avatars/
+unity/AIInterviewer/Assets/ThirdParty/Rocketbox/Avatars.meta
+unity/AIInterviewer/Assets/ThirdParty/Rocketbox/Animations/
+unity/AIInterviewer/Assets/ThirdParty/Rocketbox/Animations.meta
+
+# --- keep secrets and junk out of git ---
+node_modules/
+.next/
+.expo/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+tsconfig.tsbuildinfo
+.claude/

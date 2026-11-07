@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend (FastAPI)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.asgi:app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "envFile": "${workspaceFolder}/backend/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "Voice demo (needs backend running)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/voice_poc.py",
+      "args": ["--server", "http://127.0.0.1:8000", "--tone", "--turns", "2", "--interrupt-after", "0.5"],
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "console": "integratedTerminal"
+    }
+  ]
+}

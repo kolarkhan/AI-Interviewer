@@ -1,0 +1,26 @@
+{
+    "name": "AIInterviewer.LipSync.ULipSync",
+    "rootNamespace": "AIInterviewer.LipSync",
+    "references": [
+        "AIInterviewer.Core",
+        "AIInterviewer.Runtime",
+        "uLipSync.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "AIINTERVIEWER_ULIPSYNC"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.hecomi.ulipsync",
+            "expression": "3.0.0",
+            "define": "AIINTERVIEWER_ULIPSYNC"
+        }
+    ],
+    "noEngineReferences": false
+}

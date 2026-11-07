@@ -1,0 +1,25 @@
+{
+    "name": "AIInterviewer.FilePicker.Native",
+    "rootNamespace": "AIInterviewer.Platform",
+    "references": [
+        "AIInterviewer.Runtime",
+        "NativeFilePicker.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "AII_NATIVE_FILE_PICKER"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.yasirkula.nativefilepicker",
+            "expression": "1.0.0",
+            "define": "AII_NATIVE_FILE_PICKER"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+# Runtime dependencies (pinned; verified 2026-10-15)
+fastapi==0.143.1
+uvicorn[standard]==0.54.0
+pymongo==4.19.0
+openai==3.31.0
+pydantic==2.14.1
+pydantic-settings==2.16.0
+email-validator==2.3.0
+pyjwt==2.15.1
+argon2-cffi==25.1.0
+httpx==0.28.1
+websockets==17.2
+python-multipart==0.0.32
+pypdf==6.20.1
+python-docx==1.2.0
+# In-memory database for `DATABASE_URL=memory://` (development/demo only)
+mongomock-motor==0.0.36
+mongomock==4.3.0

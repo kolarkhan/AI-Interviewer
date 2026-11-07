@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dce69340cce4344788ca4918c47fff1, type: 3}
+  m_Name: alex
+  m_EditorClassIdentifier: AIInterviewer.Runtime::AIInterviewer.Avatar.AvatarDefinition
+  id: alex
+  displayName: Alex
+  prefab: {fileID: 2446176339028609621, guid: 9cb16bd70a1cb3345b8fee295af6f19e, type: 3}
+  scale: 1
+  positionOffset: {x: 0, y: 0, z: -0.15}
+  licenseNotice: Character from the Microsoft Rocketbox Avatar Library, MIT License,
+    (c) 2020 Microsoft.

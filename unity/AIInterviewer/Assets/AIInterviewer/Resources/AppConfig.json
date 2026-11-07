@@ -1,0 +1,8 @@
+{
+  "apiBaseUrl": "http://127.0.0.1:8000",
+  "androidEmulatorApiBaseUrl": "http://10.0.2.2:8000",
+  "environment": "development",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "termsUrl": "https://example.com/terms",
+  "supportEmail": "support@example.com"
+}
